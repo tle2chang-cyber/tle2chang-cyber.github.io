@@ -12,6 +12,8 @@ Web portfolio video production, phong cách apple.com, HTML/CSS/JS thuần (khô
 - Hướng dẫn deploy + tên miền: `README.md`
 
 ## Trạng thái
-- Xong: giao diện, nén media (~337MB).
-- Chưa: điền tên/email/mạng xã hội thật trong `data.js`; kiểm tra lại tiêu đề tác phẩm (đang đoán từ tên file); tạo repo GitHub và đẩy lên; gắn tên miền.
+- Đang chạy: https://tle2chang-cyber.github.io (repo tle2chang-cyber/tle2chang-cyber.github.io, GitHub Pages từ nhánh main, gh đã đăng nhập).
+- Cập nhật web: sửa file → `git add -A && git commit -m "..." && git push` → Pages tự build lại sau ~1 phút.
+- Chưa có: link mạng xã hội (socials trong data.js đang trống, phần này tự ẩn).
+- Không dùng tên miền riêng (người dùng không cần).
 - Người dùng nói tiếng Việt.
