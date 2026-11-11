@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio — Video Production</title>
+  <meta name="description" content="Portfolio video production: TVC, phim ngắn, hoạt hình, AI video, motion graphic.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Portfolio — Video Production">
+  <meta property="og:image" content="media/poster/tvc-vsr.jpg">
+  <meta property="og:description" content="Video production trọn gói: TVC, phim ngắn, hoạt hình, AI video, motion graphic.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23000'/%3E%3Cpath d='M12 9l12 7-12 7z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand" data-site="name"></a>
+    <ul class="nav-links" id="navLinks"></ul>
+    <a href="#contact" class="nav-cta">Liên hệ</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Mở menu"><span></span><span></span></button>
+  </div>
+</nav>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <video class="hero-video" src="media/reel.mp4" poster="media/poster/tvc-vsr.jpg" autoplay muted loop playsinline></video>
+    <div class="hero-shade"></div>
+    <div class="hero-copy reveal">
+      <p class="eyebrow" data-site="role"></p>
+      <h1 data-site="tagline"></h1>
+      <p class="lede" data-site="intro"></p>
+      <div class="links">
+        <a href="#works" class="btn">Xem tác phẩm</a>
+        <a href="#contact" class="link">Liên hệ hợp tác <span>›</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TILES (kiểu apple.com) -->
+  <section class="tiles" id="tiles"></section>
+  <section class="grid-tiles" id="gridTiles"></section>
+
+  <!-- TẤT CẢ TÁC PHẨM -->
+  <section class="works" id="works">
+    <div class="section-head reveal">
+      <h2>Tất cả tác phẩm.</h2>
+      <p>Chọn một danh mục để lọc. Bấm vào để xem.</p>
+    </div>
+    <div class="seg" id="filters" role="tablist"></div>
+    <div class="works-grid" id="worksGrid"></div>
+  </section>
+
+  <!-- ẢNH -->
+  <section class="photos" id="photos">
+    <div class="section-head reveal">
+      <h2>Ảnh.</h2>
+      <p>Chụp kiến trúc, không gian và nội thất.</p>
+    </div>
+    <div class="seg" id="photoFilters" role="tablist"></div>
+    <div class="masonry" id="photoGrid"></div>
+  </section>
+
+  <!-- GIỚI THIỆU -->
+  <section class="about" id="about">
+    <div class="about-inner">
+      <figure class="about-photo reveal"><img id="aboutPhoto" alt="" loading="lazy"></figure>
+      <div class="about-copy reveal">
+        <p class="eyebrow">Giới thiệu</p>
+        <h2 id="aboutTitle"></h2>
+        <p class="lede" id="aboutText"></p>
+        <div class="stats">
+          <div><strong id="statYears"></strong><span>năm kinh nghiệm</span></div>
+          <div><strong id="statWorks"></strong><span>tác phẩm tiêu biểu</span></div>
+          <div><strong>A–Z</strong><span>từ tiền kỳ đến hậu kỳ</span></div>
+        </div>
+        <ul class="skills" id="aboutSkills"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIÊN HỆ -->
+  <section class="contact" id="contact">
+    <div class="reveal">
+      <p class="eyebrow">Hợp tác</p>
+      <h2>Có một câu chuyện cần kể?</h2>
+      <p class="lede">Gửi brief, ngân sách và thời gian dự kiến — mình sẽ phản hồi trong 24 giờ.</p>
+      <div class="links center">
+        <a class="btn" id="mailBtn" href="#">Gửi email</a>
+        <a class="link" id="phoneLink" href="#"></a>
+      </div>
+      <ul class="socials" id="socials"></ul>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <p>Toàn bộ video và hình ảnh trên trang thuộc bản quyền của tác giả và khách hàng tương ứng. Không sử dụng lại khi chưa được phép.</p>
+    <hr>
+    <p>© <span id="year"></span> <span data-site="name"></span>. <span data-site="role"></span>.</p>
+  </div>
+</footer>
+
+<!-- TRÌNH XEM VIDEO / ẢNH -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-close" id="lbClose" aria-label="Đóng">✕</button>
+  <button class="lb-nav prev" id="lbPrev" aria-label="Trước">‹</button>
+  <button class="lb-nav next" id="lbNext" aria-label="Sau">›</button>
+  <figure class="lb-stage" id="lbStage"></figure>
+  <figcaption class="lb-cap" id="lbCap"></figcaption>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
