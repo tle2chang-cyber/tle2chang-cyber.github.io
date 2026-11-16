@@ -43,6 +43,7 @@ window.WORKS = [
   { id: "anim-pte-2",           cat: "anim", title: "PTE — Trailer 2" },
 
   { id: "ai-skoda",             cat: "ai",   title: "Skoda Kodiaq",           feature: true },
+  { id: "ai-thu",               cat: "ai",   title: "Võ Lâm Chi Mệnh — Thần Thú" },
   { id: "ai-xanhsm",            cat: "ai",   title: "Xanh SM" },
   { id: "ai-coloa",             cat: "ai",   title: "Cổ Loa" },
   { id: "ai-wuxia-1",           cat: "ai",   title: "Wuxia — I" },

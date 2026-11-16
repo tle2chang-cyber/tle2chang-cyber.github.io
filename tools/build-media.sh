@@ -31,6 +31,7 @@ vid "Animated series/PTE Trailer 1 FINAL + Outro.mp4" anim-pte-1
 vid "Animated series/PTE trailer 2 draft2.mp4" anim-pte-2
 vid "AI/SkodaKodiaq_FN.mp4" ai-skoda
 vid "AI/XanhSM_FN.mp4" ai-xanhsm
+vid "../CMplay/Thú/PJ/Video_Thu_D2.mp4" ai-thu
 vid "AI/CoLoa_AI_D1.mp4" ai-coloa
 vid "AI/Wuxia1.mp4" ai-wuxia-1
 vid "AI/Wuxia2.mp4" ai-wuxia-2
@@ -49,6 +50,7 @@ i=1; for f in "$SRC"/Ảnh*/Văn\ phòng*/*(.N); do sips -s format jpeg -s forma
 echo "✓ photos"
 
 # Showreel cho hero: ghép 8 đoạn 4s từ các video ngang (720p)
+[[ -f "$OUT/reel.mp4" ]] && { echo "✓ reel (giữ nguyên)"; du -sh "$OUT"; exit 0; }
 cd "$OUT/video"; args=(); n=0; f=""
 for s in tvc-vsr film-kb1 anim-pte-1 ai-skoda tvc-prepcando-series ai-wuxia-3 film-kb2 tvc-lo-trinh; do
   d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 $s.mp4)

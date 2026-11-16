@@ -90,7 +90,7 @@
   }
 
   // ---- Lưới tác phẩm + bộ lọc
-  const DURS = {"tvc-vsr":96,"tvc-lo-trinh":58,"tvc-hanh-trinh":65,"tvc-prepcando-series":85,"film-kb1":183,"film-kb2":213,"anim-pte-1":92,"anim-pte-2":102,"ai-skoda":30,"ai-xanhsm":30,"ai-coloa":74,"ai-wuxia-1":20,"ai-wuxia-2":15,"ai-wuxia-3":16,"ai-dog-robot":6,"ai-balloon-1":4,"ai-balloon-2":4,"mg-lig-1":38,"mg-lig-2":33,"th-zen-4":125,"th-zen-8":78};
+  const DURS = {"tvc-vsr":96,"tvc-lo-trinh":58,"tvc-hanh-trinh":65,"tvc-prepcando-series":85,"film-kb1":183,"film-kb2":213,"anim-pte-1":92,"anim-pte-2":102,"ai-skoda":30,"ai-xanhsm":30,"ai-thu":91,"ai-coloa":74,"ai-wuxia-1":20,"ai-wuxia-2":15,"ai-wuxia-3":16,"ai-dog-robot":6,"ai-balloon-1":4,"ai-balloon-2":4,"mg-lig-1":38,"mg-lig-2":33,"th-zen-4":125,"th-zen-8":78};
   const fmt = s => s ? `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, "0")}` : "";
 
   const grid = $("#worksGrid"), filters = $("#filters");
