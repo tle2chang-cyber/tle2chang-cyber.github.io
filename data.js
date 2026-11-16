@@ -44,6 +44,7 @@ window.WORKS = [
 
   { id: "ai-skoda",             cat: "ai",   title: "Skoda Kodiaq",           feature: true },
   { id: "ai-thu",               cat: "ai",   title: "Võ Lâm Chi Mệnh — Thần Thú" },
+  { id: "ai-hmmh",              cat: "ai",   title: "Hmmh — Fashion" },
   { id: "ai-xanhsm",            cat: "ai",   title: "Xanh SM" },
   { id: "ai-coloa",             cat: "ai",   title: "Cổ Loa" },
   { id: "ai-wuxia-1",           cat: "ai",   title: "Wuxia — I" },

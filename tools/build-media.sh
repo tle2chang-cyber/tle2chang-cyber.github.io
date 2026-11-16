@@ -32,6 +32,7 @@ vid "Animated series/PTE trailer 2 draft2.mp4" anim-pte-2
 vid "AI/SkodaKodiaq_FN.mp4" ai-skoda
 vid "AI/XanhSM_FN.mp4" ai-xanhsm
 vid "../CMplay/Thú/PJ/Video_Thu_D2.mp4" ai-thu
+vid "../Hmmh/Hmmh_d2.mp4" ai-hmmh
 vid "AI/CoLoa_AI_D1.mp4" ai-coloa
 vid "AI/Wuxia1.mp4" ai-wuxia-1
 vid "AI/Wuxia2.mp4" ai-wuxia-2
