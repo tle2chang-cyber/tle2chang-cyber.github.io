@@ -13,7 +13,7 @@ Web portfolio video production, phong cách apple.com, HTML/CSS/JS thuần (khô
 
 ## Trạng thái
 - Đang chạy: https://tle2chang-cyber.github.io (repo tle2chang-cyber/tle2chang-cyber.github.io, GitHub Pages từ nhánh main, gh đã đăng nhập).
-- Cập nhật web: sửa file → `git add -A && git commit -m "..." && git push` → Pages tự build lại sau ~1 phút.
+- Cập nhật web: sửa file → `zsh tools/publish.sh "mô tả"` (gắn ?v= mới cho css/js để tránh cache, commit, push) → Pages build lại sau ~1 phút.
 - Chưa có: link mạng xã hội (socials trong data.js đang trống, phần này tự ẩn).
 - Không dùng tên miền riêng (người dùng không cần).
 - Người dùng nói tiếng Việt.
